@@ -97,7 +97,7 @@ body {
   /* Opera 11.10+ */
   background: -o-linear-gradient(top, #e8e9ec, #ececec);
 
-  height: 1000px;
+  height: 920px;
 
   font-family: 'Helvetica Neue', 'Helvetica', 'arial', 'sans-serif';
 }
@@ -111,11 +111,11 @@ body {
 
 header {
   margin: 0 auto;
-  width: 960px;
+  width: 920px;
 }
 
 #menu {
-  width: 960px;
+  width: 920px;
   padding-top: 10px;
   background-color: transparent;
 }

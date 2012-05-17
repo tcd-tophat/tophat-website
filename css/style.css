@@ -137,10 +137,34 @@ header {
   color: #818d96;
 }
 
-#menu .active {
+#menuhome .active, #menuabout a:hover{
   color: #67cf79;
   padding-bottom: 2px;
-  border-bottom: 1px solid #67cf79;
+  border-bottom: 1px solid #67cf79;  
+}
+
+#menuabout .active, #menuabout a:hover{
+  color: #2DB8DB;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #2DB8DB;  
+}
+
+#menuplatform .active, #menuplatform a:hover {
+  color: #DBA72B;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #DBA72B;  
+}
+
+#menuapps .active, #menuapps a:hover {
+  color: #D8576F;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #D8576F;  
+}
+
+#menusupport .active, #menusupport a:hover {
+  color: #67cf79;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #67cf79;  
 }
 
 #banner {
@@ -148,10 +172,24 @@ header {
     margin: 0 auto;
     text-align: center;
     background-color: transparent;
+    opacity: 1.0;
 }
 
 #logo {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
+  display: inline-block;
+  height: 240px;
+  width: 600px;
+}
+
+#logo img {
+  display: none;
+}
+
+#like {
+  height: 46px;
+  width: 553px;
+  padding-bottom: 30px;
 }
 
 #mainbit {
@@ -186,6 +224,10 @@ header {
   background-image: url('../img/settings.png');
 }
 
+#platform img {
+  height: 23px;
+  width: 115px;
+}
 #platformlink {
   color: #dba72b;
   text-decoration: none;
@@ -199,6 +241,11 @@ header {
 
 #apps {
   color: #818d96;
+}
+
+#apps img {
+  height: 29px;
+  width: 130px;
 }
 
 #apps h3 {
@@ -219,6 +266,11 @@ header {
 
 #twitter {
   color: #818d96;
+}
+
+#twitter img {
+  width: 135px;
+  height: 23px;
 }
 
 #twitter h3 {

@@ -174,13 +174,51 @@ header {
   padding-top: 3px;
 }
 
+#mainbit li {
+  width: 230px;
+}
+
+#platform {
+  color: #818d96;
+}
+
 #platform h3 {
   background-image: url('../img/settings.png');
+}
+
+#platformlink {
+  color: #dba72b;
+  text-decoration: none;
+  padding-bottom: 2px;
+  margin-left: 38px;
+}
+
+#platformlink:hover {
+  border-bottom: 1px solid #dba72b;
+}
+
+#apps {
+  color: #818d96;
 }
 
 #apps h3 {
   background-image: url('../img/art.png');
   padding-left: 50px;
+}
+
+#applink {
+  color: #d8576f;
+  text-decoration: none;
+  padding-bottom: 2px;
+  margin-left: 38px;
+}
+
+#applink:hover {
+  border-bottom: 1px solid #d8576f;
+}
+
+#twitter {
+  color: #818d96;
 }
 
 #twitter h3 {
@@ -189,6 +227,18 @@ header {
   padding-top: 2px;
 }
 
+#twitterlink {
+  color: #2db8db;
+  text-decoration: none;
+  padding-bottom: 2px;
+  margin-left: 38px;
+}
+
+#twitterlink:hover {
+  border-bottom: 1px solid #2db8db;
+}
+
+
 
 
 /* =============================================================================
@@ -196,7 +246,7 @@ header {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-	/* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
 
 /* =============================================================================

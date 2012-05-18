@@ -106,7 +106,7 @@ body {
   background-image: url('../img/blub.png');
   background-repeat: no-repeat;
   background-position: center top; 
-  height: 900px;
+  min-height: 700px;
 }
 
 header {
@@ -180,6 +180,7 @@ header {
   display: inline-block;
   height: 240px;
   width: 600px;
+  max-width: 600px;
 }
 
 #logo img {
@@ -189,6 +190,7 @@ header {
 #like {
   height: 46px;
   width: 553px;
+  max-width: 553px;
   padding-bottom: 30px;
 }
 
@@ -199,7 +201,7 @@ header {
 }
 
 #mainbit div{
-  width: 33%;
+  width: 300px;
   display: block;
   float: left;
 }
@@ -228,6 +230,7 @@ header {
   height: 23px;
   width: 115px;
 }
+
 #platformlink {
   color: #dba72b;
   text-decoration: none;
@@ -311,6 +314,7 @@ footer {
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
+
 
 /* =============================================================================
    Non-Semantic Helper Classes

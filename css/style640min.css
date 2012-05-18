@@ -1,0 +1,77 @@
+  body {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  ul {
+    padding: 0 0 0 0;
+  }
+
+  #menu {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    padding-top: 5px;
+  }
+
+  #menu ul {
+    float: left;
+    width: 100%;
+  }
+
+  #menu ul li {
+    display: block;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  #mainbit {
+    width: 100%;
+  }
+
+  #mainbit div {
+    width: 90%;
+    margin-left: 40px;
+  }
+
+  #mainbit ul {
+    width: 95%;
+    margin-left: 50px;
+  }
+
+  #banner {
+    width: 99%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+
+  #logo {
+    width: 90%;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 0;
+    height: 75%;
+  }
+
+  #logo img {
+    width: 70%;
+  }
+
+  #like {
+    width: 90%;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+
+  #mainbit li {
+    width: 90%;
+  }
+
+  footer {
+    
+  }

@@ -126,7 +126,8 @@ header {
 #menu ul li {
   display: inline-block;
   height: 50px;
-  width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
 }
 
@@ -206,7 +207,7 @@ header {
 
 #mainbit h3 {
   background-repeat: no-repeat;
-  height: 40px;
+  height: 45px;
   padding-left: 45px;
   background-position: 0px 0px;
   padding-top: 3px;
@@ -222,6 +223,8 @@ header {
 
 #platform h3 {
   background-image: url('../img/settings.png');
+  background-position: 0px 5px;
+  padding-top: 6px;
 }
 
 #platform img {
@@ -252,6 +255,8 @@ header {
 #apps h3 {
   background-image: url('../img/art.png');
   padding-left: 50px;
+  background-position: 0px 5px;
+  padding-top: 8px;
 }
 
 #applink {
@@ -277,7 +282,7 @@ header {
 #twitter h3 {
   background-image: url('../img/twitter.png'); 
   padding-left: 53px;
-  padding-top: 2px;
+  padding-top: 6px;
 }
 
 #twitterlink {

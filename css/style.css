@@ -199,10 +199,11 @@ header {
   width: 995px;
   margin: 0 auto;
   background-color: transparent;
+  color: #818d96;
 }
 
 #mainbit div {
-  width: 330px;
+  min-width: 330px;
   display: block;
   float: left;
 }
@@ -394,6 +395,83 @@ footer {
   color: #75818b;
 }
 
+/* =============================================================================
+   ABOUT US PAGE
+   ========================================================================== */
+
+
+#aboutus {
+  width: 460px;
+  padding-left: 3px;
+  padding-right: 40px;
+  font-size: 18px;
+}
+
+#aboutus ul {
+  width: 460px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#aboutus h3 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#aboutus li {
+  width: 450px;
+}
+
+#profilepics {
+  background-image: url('../img/aboutus-div.png');
+  background-repeat: no-repeat;
+  width: 410px;
+  padding-left: 10px;
+}
+
+#profilepics ul, #profilepics li {
+  width: 410px;
+}
+
+#profilepics li {
+  height: 130px;
+}
+
+#profilepics h4 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 19px;
+  font-weight: normal;
+  color: #818d96;
+  text-shadow: #d7dae1 1px 1px 1px;
+  width: 150px;
+}
+
+#profilepics h3 {
+  margin: 0 0 0 40px;
+  padding: 0 0 0 0;
+}
+
+#profilepics h3 img {
+  margin-left: -4px;
+}
+
+#profilepics ul img {
+  float: left;
+  margin-right: 15px;
+}
+
+#profilepics div {
+  float: right;
+  width: 280px;
+  min-width: 280px;
+}
+
+#profilepics p {
+  font-size: 16px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
 
 /* =============================================================================
    Media Queries

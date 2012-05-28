@@ -109,11 +109,11 @@ body {
 
 header {
   margin: 0 auto;
-  width: 920px;
+  width: 995px;
 }
 
 #menu {
-  width: 920px;
+  width: 995px;
   padding-top: 10px;
   background-color: transparent;
 }
@@ -121,13 +121,15 @@ header {
 #menu ul {
   list-style: none;
   float: right;
+  padding-right: 15px;
+  font-size: 19px;
 }
 
 #menu ul li {
   display: inline-block;
   height: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
   text-align: center;
 }
 
@@ -139,31 +141,31 @@ header {
 #menuhome .active, #menuabout a:hover{
   color: #67cf79;
   padding-bottom: 2px;
-  border-bottom: 1px solid #67cf79;  
+  border-bottom: 2px solid #67cf79;  
 }
 
 #menuabout .active, #menuabout a:hover{
-  color: #2DB8DB;
+  color: #9a5dd2;
   padding-bottom: 2px;
-  border-bottom: 1px solid #2DB8DB;  
+  border-bottom: 2px solid #9a5dd2;  
 }
 
 #menuplatform .active, #menuplatform a:hover {
   color: #DBA72B;
   padding-bottom: 2px;
-  border-bottom: 1px solid #DBA72B;  
+  border-bottom: 2px solid #DBA72B;  
 }
 
 #menuapps .active, #menuapps a:hover {
   color: #D8576F;
   padding-bottom: 2px;
-  border-bottom: 1px solid #D8576F;  
+  border-bottom: 2px solid #D8576F;  
 }
 
 #menusupport .active, #menusupport a:hover {
-  color: #19003B;
+  color: #5fc8e3;
   padding-bottom: 2px;
-  border-bottom: 1px solid #19003B;  
+  border-bottom: 2px solid #5fc8e3;  
 }
 
 #banner {
@@ -194,15 +196,24 @@ header {
 }
 
 #mainbit {
-  width: 960px;
+  width: 995px;
   margin: 0 auto;
   background-color: transparent;
 }
 
-#mainbit div{
-  width: 300px;
+#mainbit div {
+  width: 330px;
   display: block;
   float: left;
+}
+
+#mainbit a {
+  font-size: 19px;
+}
+
+#mainbit ul {
+  width: 270px;
+  list-style: none;
 }
 
 #mainbit h3 {
@@ -214,7 +225,8 @@ header {
 }
 
 #mainbit li {
-  width: 230px;
+  width: 270px;
+  font-size: 19px;
 }
 
 #platform {
@@ -233,14 +245,15 @@ header {
 }
 
 #platform ul {
-  padding-left:30px;
+  padding-left: 0px;
 }
 
 #platformlink {
   color: #dba72b;
   text-decoration: none;
   padding-bottom: 2px;
-  margin-left: 28px;
+  font-size: 19px;
+  margin-left: 0px;
 }
 
 #platformlink:hover {
@@ -257,7 +270,7 @@ header {
 }
 
 #apps ul {
-  padding-left:35px;
+  padding-left:0px;
 }
 
 #apps h3 {
@@ -270,8 +283,9 @@ header {
 #applink {
   color: #d8576f;
   text-decoration: none;
+  font-size: 19px;
   padding-bottom: 2px;
-  margin-left: 34px;
+  margin-left: 0px;
 }
 
 #applink:hover {
@@ -296,25 +310,79 @@ header {
 #twitterlink {
   color: #2db8db;
   text-decoration: none;
+  font-size: 19px;
   padding-bottom: 2px;
-  margin-left: 38px;
+  margin-left: 5px;
 }
 
 #twitterlink:hover {
   border-bottom: 1px solid #2db8db;
 }
 
+#twitter ul {
+  padding-left:5px;
+}
+
+
 footer {
   background-color: #b8bec3;
-  height: auto;
   background-image: url('../img/gradient.png');
   background-repeat: repeat-x;
-  font-size: 11px;
-  color: #818D96;
-  text-shadow: #ffffff 1px 1px 1px;
+  font-size: 19px;
+  color: #88929b;
+  text-shadow: #d7dae1 1px 1px 1px;
   padding-top: 15px;
   padding-bottom: 50px;
-  padding-left: 15px;
+  padding-left: 0px;
+  height: 250px;
+}
+
+#footercenter {
+  margin: 0 auto;
+  width: 995px;
+}
+
+.footerbox {
+  display: block;
+  float: left;
+  height: 200px;
+  width: 270px;
+  padding-left: 0px;
+}
+
+.footerbox a {
+  color: #88929b;
+  text-decoration: none;
+}
+
+.footerbox a:hover {
+  text-decoration: underline;
+  color: #75818b;
+}
+
+#contactfooter {
+  width: 282px;
+  padding-left: 60px;
+  background-image: url('../img/divider.png');
+  background-repeat: no-repeat;
+}
+
+#copyright {
+  width: 258px;
+  padding-left: 50px;  
+  background-image: url('../img/divider.png');
+  background-repeat: no-repeat;
+}
+
+.footerbox ul {
+  list-style-type: none;
+  margin: 16px 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.footerheading {
+  font-weight: normal;
+  color: #75818b;
 }
 
 

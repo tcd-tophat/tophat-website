@@ -75,3 +75,12 @@
   footer {
     
   }
+
+  
+  .footerbox {
+    display: inline-block;
+  }
+
+  #footercenter {
+    width: auto;
+  }

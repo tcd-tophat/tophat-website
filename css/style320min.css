@@ -72,6 +72,14 @@
   	width: 90%;
   }
 
+  .footerbox {
+    display: inline-block;
+  }
+
+  #footercenter {
+    width: 300px;
+  }
+
   footer {
   	
   }
